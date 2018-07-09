@@ -1,0 +1,58 @@
+@import 'colors.scss';
+
+.background-sobre{
+    background-color: $bg;
+    
+}
+
+#sobre{
+    h1{
+    padding: 3em 0 0 0;
+    color: $primary-color;
+    font-size: 40pt;
+    text-align: center;
+    font-weight: 900;
+    
+    
+    }
+    h2{
+        text-align: center;
+        font-size: 46pt;
+        color: $primary-color;
+        padding-top: 3em;
+        font-weight: 900;
+        text-shadow: 2px 2px #2e4a583d;
+    }
+    h3{
+        padding-top: 1.2em;
+        text-align: center;
+        font-size: 22pt;
+        color: $secondary-color;
+    }
+    p{
+        text-align: left;
+        font-size: 15pt;
+        padding-left: 5em;
+        padding-right: 5em;
+        line-height: 1.2;
+        font-weight: 400;
+        color: $primary-color;
+    }
+    img{
+        width: 100%;
+        max-width: 120px;
+        height: auto;
+    }
+    ul{
+        list-style-type: none;
+        li {
+            float: left;
+        }
+    }
+}
+
+.center{
+    width: 50%;
+    margin: auto;
+    margin-right: auto;
+}

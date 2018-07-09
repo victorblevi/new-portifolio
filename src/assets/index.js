@@ -1,1 +1,6 @@
-import './sass/styles.scss'
+import './sass/home.scss'
+import './sass/menu.scss'
+import './sass/simple-grid.scss'
+import './sass/sobremim.scss'
+import './sass/portifolio.scss'
+import './sass/curriculo.scss'

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/index'
+import '../assets/'
 
 import Menu from '../components/menu'
 import Routes from './routes'

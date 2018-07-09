@@ -1,0 +1,33 @@
+@import 'colors.scss';
+
+.bg-portifolio{
+    background-color: $bg;
+}
+#portifolio{
+    h2{
+        text-align: center;
+        font-size: 46pt;
+        color: $primary-color;
+        padding-top: 3em;
+        font-weight: 900;
+        text-shadow: 2px 2px #2e4a583d;
+    }
+    
+    h3{
+        padding-top: 1.2em;
+        text-align: center;
+        font-size: 22pt;
+        color: $secondary-color;
+    }
+    img{
+        width: 500;
+    }
+    ul{
+        
+        padding: 5em;
+    }
+    ul li{
+        padding: 2em;
+        display: inline;
+    }
+}

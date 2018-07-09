@@ -2,6 +2,8 @@ import React from 'react'
 import { HashRouter as Router, Route, NavLink } from "react-router-dom";
 import Home from '../screens/home'
 import Sobre from '../screens/sobremim'
+import Portifolio from '../screens/portifolio'
+import Curriculo from '../screens/curriculo'
 
 
 export default props => (
@@ -29,7 +31,7 @@ export default props => (
                                 </li>
 
                                 <li>
-                                    <NavLink href='#' activeStyle={{ color: '#FFF' }} to="/portifolio">
+                                    <NavLink className="tags" activeStyle={{ color: '#FFF' }} to="/portifolio">
                                     <i className="fa fa-eye fa-2x" />
                                     <p>Portifolio</p>
                                     </NavLink>
@@ -56,6 +58,8 @@ export default props => (
             <Route exact path="/" component={Home} />
             <Route path='/home' component={Home} />
             <Route path='/sobre' component={Sobre} />
+            <Route path='/portifolio' component={Portifolio} />
+            <Route path='/curriculo' component={Curriculo} />
         </div>
     </Router>
 

@@ -3,7 +3,6 @@ import React from 'react'
 export default props => (
 
     <section id='sobre' className='content-page background-sobre'>
-        <a> TESTE </a>
         <h1>Sobre mim</h1>
         <p>
             Victor Batista Levi<br />
