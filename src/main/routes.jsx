@@ -60,6 +60,7 @@ export default props => (
             <Route path='/sobre' component={Sobre} />
             <Route path='/portifolio' component={Portifolio} />
             <Route path='/curriculo' component={Curriculo} />
+            
         </div>
     </Router>
 

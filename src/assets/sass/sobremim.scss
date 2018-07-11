@@ -6,34 +6,35 @@
 }
 
 #sobre{
+    font-family: Roboto Mono,monospace;
     h1{
     padding: 3em 0 0 0;
     color: $primary-color;
-    font-size: 40pt;
+    font-size: 46pt;
     text-align: center;
     font-weight: 900;
-    
-    
+        font-family: Roboto Mono,monospace;
+    text-shadow: 2px 2px #2e4a583d;
     }
     h2{
         text-align: center;
-        font-size: 46pt;
+        font-size: 40pt;
         color: $primary-color;
-        padding-top: 3em;
         font-weight: 900;
         text-shadow: 2px 2px #2e4a583d;
     }
     h3{
         padding-top: 1.2em;
         text-align: center;
-        font-size: 22pt;
-        color: $secondary-color;
+        font-size: 30pt;
+        color: $primary-color;
+        font-weight: 900;
+        text-shadow: 2px 2px #2e4a583d;
     }
     p{
         text-align: left;
-        font-size: 15pt;
-        padding-left: 5em;
-        padding-right: 5em;
+        font-size: 16pt;
+        padding: 2em 0 0em 0;
         line-height: 1.2;
         font-weight: 400;
         color: $primary-color;

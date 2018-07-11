@@ -14,7 +14,7 @@
   padding: 0;
   border: none;
   outline: none;
-  font-family: inherit;
+  font-family: Roboto Mono,monospace;
   font-size: 100%;
   line-height: 1.15;
   text-decoration: none;
@@ -107,8 +107,7 @@ p {
 
 .row [class^="col"] {
   float: left;
-  margin: 0.5rem 2%;
-  min-height: 0.125rem;
+
 }
 
 .col-1,

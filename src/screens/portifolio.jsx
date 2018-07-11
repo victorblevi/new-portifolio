@@ -1,24 +1,27 @@
 import React from 'react';
-
+import ProjectCard from '../components/project-card'
 
 export default props => (
-    <section  id='portifolio' className='bg-portifolio content-page'>
+    <section id='portifolio' className='bg-portifolio content-page'>
         <h2>
-            Portifolio
+            Portifólio_
         </h2>
         <h3>
             Meus últimos trabralhos
         </h3>
-        <ul>
-            <li>
-                <img src='https://jacekjeznach.com/wp-content/uploads/2015/05/Drony24-Filmy-i-zdj%C4%99cia-z-drona-2.jpeg' alt='trabalho'/>
-            </li>
-            <li>
-                <img src='https://jacekjeznach.com/wp-content/uploads/2015/05/Drony24-Filmy-i-zdj%C4%99cia-z-drona-2.jpeg' alt='trabalho'/>
-            </li>
-            <li>
-                <img src='https://jacekjeznach.com/wp-content/uploads/2015/05/Drony24-Filmy-i-zdj%C4%99cia-z-drona-2.jpeg' alt='trabalho'/>
-            </li>
-        </ul>
+        <div className='container'>
+            <ProjectCard
+                img='https://francisgregori.com.br/wp-content/uploads/2018/05/dce-featured-1-500x500.jpg'
+                alt='Cacau Show'
+            />
+            <ProjectCard
+                img='https://francisgregori.com.br/wp-content/uploads/2018/05/dce-featured-1-500x500.jpg'
+                alt='Cacau Show'
+            />
+            <ProjectCard
+                img='https://francisgregori.com.br/wp-content/uploads/2018/05/dce-featured-1-500x500.jpg'
+                alt='Cacau Show'
+            />
+        </div>
     </section>
 )

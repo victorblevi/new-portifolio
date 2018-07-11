@@ -4,17 +4,18 @@
     background-color: $bg;
 }
 #portifolio{
+    font-family: Roboto Mono,monospace;
     h2{
         text-align: center;
-        font-size: 46pt;
+        font-size: 40pt;
         color: $primary-color;
-        padding-top: 3em;
+        padding-top: 2em;
         font-weight: 900;
         text-shadow: 2px 2px #2e4a583d;
     }
     
     h3{
-        padding-top: 1.2em;
+        padding-top: 1em;
         text-align: center;
         font-size: 22pt;
         color: $secondary-color;
@@ -30,4 +31,27 @@
         padding: 2em;
         display: inline;
     }
+    div{
+        h3{
+            font-size: 18pt;
+            text-align: left;
+            color: $bg
+            
+        }
+        p{
+            padding-top: 2em;
+            color: $bg
+        }
+    }
+}
+
+.img-adjust{
+    max-width: 430px;
+    padding: 0;
+    margin: 0
+}
+.project-card{
+    border: 1px solid rgb(122, 122, 122);
+    background-color: $primary-color;
+    box-shadow: #0000007e 3px 2px 10px
 }

@@ -12,18 +12,18 @@
 }
 
 #home{
+  font-family: Roboto Mono,monospace;
   text-align: center;
-}
-#home h1 {
-  padding: 2em 0 0 0;
-  color: #FFF;
-  font-size: 6vw;
-  text-align: center;
-}
-
-#home span{
-  padding: 0em 0 0 0;
-  color: #FFF;
-  font-size: 3vw;
-  
+  h1 {
+    padding: 4em 0 0 0;
+    color: #FFF;
+    font-size: 60pt;
+    text-align: center;
+  }
+  span{
+    padding: 0em 0 0 0;
+    color: #FFF;
+    font-size: 30pt;
+    
+  }
 }
