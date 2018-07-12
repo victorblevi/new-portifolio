@@ -9,15 +9,7 @@ export default props => (
         <h3>
             Meus últimos trabralhos
         </h3>
-        <div className='container'>
-            <ProjectCard
-                img='https://francisgregori.com.br/wp-content/uploads/2018/05/dce-featured-1-500x500.jpg'
-                alt='Cacau Show'
-            />
-            <ProjectCard
-                img='https://francisgregori.com.br/wp-content/uploads/2018/05/dce-featured-1-500x500.jpg'
-                alt='Cacau Show'
-            />
+        <div className='container--fluid'>
             <ProjectCard
                 img='https://francisgregori.com.br/wp-content/uploads/2018/05/dce-featured-1-500x500.jpg'
                 alt='Cacau Show'
